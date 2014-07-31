@@ -5,7 +5,7 @@ This repository contains the [Web Sushi Demo App](http://demos.telerik.com/kendo
 
 ## Showcased features 
 
-Here is a list of the features that are showcased in the Friends sample app:
+Here is a list of the features that are showcased in the WebSushi sample app:
 
 - [Router](http://docs.telerik.com/kendo-ui/getting-started/framework/spa/router)
 - [View](http://docs.telerik.com/kendo-ui/getting-started/framework/spa/view)
