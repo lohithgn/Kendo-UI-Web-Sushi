@@ -121,7 +121,7 @@ var indexModel = kendo.observable({
 
 var detailModel = kendo.observable({
     imgUrl: function() {
-        return "/images/200/" + this.get("current").image
+        return "./images/200/" + this.get("current").image
     },
 
     price: function() {
