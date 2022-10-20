@@ -9,7 +9,7 @@ var items = new kendo.data.DataSource({
     { 
         read: 
         { 
-            url:  "/data/menu.json", 
+            url:  "./data/menu.json", 
             dataType: "json" 
         } 
     }
