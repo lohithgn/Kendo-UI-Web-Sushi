@@ -3,13 +3,13 @@
 <head>
     <title>Sushi</title>
     <meta charset="utf-8">
-    <link href="http://cdn.kendostatic.com/2014.2.716/styles/kendo.common.min.css" rel="stylesheet">
-    <link href="http://cdn.kendostatic.com/2014.2.716/styles/kendo.rtl.min.css" rel="stylesheet">
-    <link href="http://cdn.kendostatic.com/2014.2.716/styles/kendo.default.min.css" rel="stylesheet">
-    <link href="http://cdn.kendostatic.com/2014.2.716/styles/kendo.dataviz.min.css" rel="stylesheet">
-    <link href="http://cdn.kendostatic.com/2014.2.716/styles/kendo.dataviz.default.min.css" rel="stylesheet">
-    <script src="http://cdn.kendostatic.com/2014.2.716/js/jquery.min.js"></script>
-    <script src="http://cdn.kendostatic.com/2014.2.716/js/kendo.ui.core.min.js"></script>
+    <link href="https://cdn.kendostatic.com/2014.2.716/styles/kendo.common.min.css" rel="stylesheet">
+    <link href="https://cdn.kendostatic.com/2014.2.716/styles/kendo.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.kendostatic.com/2014.2.716/styles/kendo.default.min.css" rel="stylesheet">
+    <link href="https://cdn.kendostatic.com/2014.2.716/styles/kendo.dataviz.min.css" rel="stylesheet">
+    <link href="https://cdn.kendostatic.com/2014.2.716/styles/kendo.dataviz.default.min.css" rel="stylesheet">
+    <script src="https://cdn.kendostatic.com/2014.2.716/js/jquery.min.js"></script>
+    <script src="https://cdn.kendostatic.com/2014.2.716/js/kendo.ui.core.min.js"></script>
     <script src="js/sushi.js"></script>
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -35,7 +35,7 @@
 
                 <div id="footer">
                     <span id="copyright">Copyright &#169; 2011 - 2013 Telerik Inc. All rights reserved.</span>
-		    | <span>Learn more about Kendo SPA at <a href="http://docs.telerik.com/kendo-ui/getting-started/framework/spa/overview">docs.telerik.com/kendo-ui</a>.</span>
+		    | <span>Learn more about Kendo SPA at <a href="https://docs.telerik.com/kendo-ui/getting-started/framework/spa/overview">docs.telerik.com/kendo-ui</a>.</span>
                 </div>
             </div>
         </script>
@@ -120,7 +120,7 @@
 
         <script type="text/x-kendo-template" id="large-cart-item">
             <tr>
-                <td> <div class="cart-image-wrapper"><img src="/images/200/#= item.image #" /></div> <span class="product-name" data-bind="text: item.name"></span></td>
+                <td> <div class="cart-image-wrapper"><img src="./images/200/#= item.image #" /></div> <span class="product-name" data-bind="text: item.name"></span></td>
                 <td><input type="text" data-role="numerictextbox" data-min="0" data-max="10" data-bind="value: quantity"></td>
                 <td><p class="table-price" data-bind="text: itemPrice"><p></td>
             </tr>
@@ -130,7 +130,7 @@
             <li class="selected-products-list">
                 <a data-bind="click: removeFromCart" class="view-selected-items"><img
                     width="100" height="100"
-                    src="/images/200/#= item.image #"  /></a>
+                    src="./images/200/#= item.image #"  /></a>
                 <span class="selected-image-price"><span data-bind="text: quantity"></span>x<span data-bind="text: itemPrice"></span></span>
             </li>
         </script>
@@ -138,7 +138,7 @@
         <script type="text/x-kendo-template" id="item">
             <li class="products">
                 <a class="view-details" href="\#/menu/#: id #">
-                    <img class="main-image" src="/images/200/#= image #"  alt="#: name#" title="#: name #" />
+                    <img class="main-image" src="./images/200/#= image #"  alt="#: name#" title="#: name #" />
                     <strong data-bind="text: name"></strong>
                     <span class="price"><span>$</span><span data-bind="text: price"></span></span>
                 </a>
